@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h2>¡To-Doo!</h2>
+            <p>¡Tu mejor aliado al momento de programar tus dias!</p>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <div class="menu">
+                <h2>Tareas</h2>
+                <button class="btn-agg">
+                    <img src="images/img-btn.png" alt="btn-mas">
+                    <span>Agregar Tarea</span>
+                </button>
+            </div>
+            <div class="filtros">
+                <button class="btn-todos">Todas las tareas</button>
+                <button class="btn-completed">Tareas completadas</button>
+                <button class="btn-incompleted">Tareas incompletas</button>
+            </div>
+            <div class="tareas">
+                <p>Actualmente sin tareas... ¡Agrega una nueva!</p>
+            </div>
+        </div>
+        <div class="modal oculto">
+            <div class="modal-oculto">
+                <div class="modal-contenido">
+                    <h3>Agregar Tarea</h3>
+                    <div class="modal-crear-tarea">
+                        <input type="text" class="title-tarea-modal" placeholder="Titulo...">
+                        <input type="text" class="desc-tarea-modal" placeholder="Descripcion...">
+                        <input type="time" class="time-tarea-modal" placeholder="Hora...">
+                        <button class="btn-cerrar-modal">Cancelar</button>
+                        <button class="btn-agg-modal">Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
