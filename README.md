@@ -1,3 +1,8 @@
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![LocalStorage](https://img.shields.io/badge/Storage-LocalStorage-blue?style=for-the-badge)
+
 # To-Doo App
 
 Aplicación web para la gestión de tareas desarrollada con HTML, CSS y JavaScript.
@@ -17,7 +22,7 @@ Este proyecto fue desarrollado con el objetivo de fortalecer habilidades en mani
 - Eliminar tareas
 - Actualización dinámica de la interfaz
 - Persistencia de datos usando LocalStorage
-- Diseño responsive adaptable a diferentes dispositivos
+- Filtrado de tareas según su estado
 
 ---
 
@@ -37,8 +42,8 @@ Este proyecto fue desarrollado con el objetivo de fortalecer habilidades en mani
 - Eventos en JavaScript
 - Arreglos y objetos
 - Persistencia de datos en navegador
-- Responsive Design
 - Organización de interfaz de usuario
+- Filtrado dinámico de datos
 
 ---
 
@@ -51,17 +56,17 @@ git clone https://github.com/SamuCodev/To-Doo-App.git
 2. Abrir la carpeta del proyecto
 3. Ejecutar index.html
 
-# Objetivo del proyecto
+## Objetivo del proyecto
 
 Desarrollar una aplicación interactiva que permita practicar lógica de programación, manipulación dinámica de elementos HTML y almacenamiento local de información
 
-# Vista Previa
+## Vista Previa
 
 <img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/c96b9488-3d33-4ebd-ba48-d087d5350e5d" />
 <img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/a924d5d3-37e0-4b56-9318-b24753b8d46e" />
 
-# Autor
+## Autor
 
 Samuel David
 
-Github.com/SamuCodev
+GitHub: Github.com/SamuCodev
