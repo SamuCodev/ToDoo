@@ -49,7 +49,6 @@ function crearTarea(listaTareas){
             tarea.completado = true
             articleTarea.classList.add("tarea-completada")
             checkComplete.disabled = true
-            btnBorrar.disabled = true
             localStorage.setItem("tareas", JSON.stringify(tareas))
         })
 
@@ -58,7 +57,6 @@ function crearTarea(listaTareas){
             checkComplete.checked = true
             articleTarea.classList.add("tarea-completada")
             checkComplete.disabled = true
-            btnBorrar.disabled = true
         }
 
         SeccionTareas.appendChild(articleTarea)
