@@ -143,7 +143,6 @@ main{
     margin: 30px auto;
     width: 400px;
     height: auto;
-    transition: 1s ease-in;
 }
 
 .modal-contenido{
@@ -220,7 +219,13 @@ main{
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    transition: 1s ease;
 }
+
+.filtros button.seleccion-filtro {
+    background-color: #0061c2;
+}
+
 
 footer{
     width: 100%;
@@ -229,5 +234,5 @@ footer{
 }
 
 button:hover{
-    background-color: #0884ff;
+    background-color: #0061c2;
 }
